@@ -83,8 +83,8 @@ const program = new Command('yarn run cli');
 program
   .version('2.0.7')
   .description('OHIF CLI')
-  .configureHelp({ sortOptions: true, sortSubcommands: true })
-  .showHelpAfterError('(add --help for additional information)');
+  .configureHelp({ sortOptions: true, sortSubcommands: true });
+// .showHelpAfterError('(add --help for additional information)');
 
 program
   .command('create-extension')
